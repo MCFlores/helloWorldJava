@@ -37,15 +37,15 @@ import javax.servlet.http.HttpServletResponse;
  * </p>
  *
  * @author Pete Muir
- *
+ * 
  */
 @SuppressWarnings("serial")
 @WebServlet("/HelloWorld")
 public class HelloWorldServlet extends HttpServlet {
 
-    static String PAGE_HEADER = "<html><head><title>Hola mundo!</title></head><body>";
+	static String PAGE_HEADER = "<html><head><title>Hola mundo ctm!</title></head><body>";
 
-    static String PAGE_FOOTER = "</body></html>";
+	static String PAGE_FOOTER = "</body></html>";
 
     @Inject
     HelloService helloService;
